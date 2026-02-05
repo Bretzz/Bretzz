@@ -1,6 +1,6 @@
 ## About me
 
-<p align="center">Hi, I'm Tommaso Piana Agostinetti. I'm a student at the 42 School. I    love to project and build autonomous systems, from Minecraft farms to    Full-Stack Web Apps. I love challenges and getting my hands dirty,    both in team or alone. You are looking for someone for you're crazy    startup project? Here I am (if you feed me I'm cheap).</p.>
+<p align="center">Hi, I'm Tommaso Piana Agostinetti. I'm a student at the 42 School. I    love to project and build autonomous systems, from Minecraft farms to    Full-Stack Web Apps. I love challenges and getting my hands dirty,    both in team or alone. You are looking for someone for your crazy    startup project? Here I am (if you feed me I'm cheap).</p.>
 
 ## Languages
 
