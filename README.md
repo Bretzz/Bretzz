@@ -2,7 +2,13 @@
 
 <p align="center">Hi, I'm Tommaso Piana Agostinetti. I'm a student at the 42 School. I    love to project and build autonomous systems, from Minecraft farms to    Full-Stack Web Apps. I love challenges and getting my hands dirty,    both in team or alone. You are looking for someone for your crazy    startup project? Here I am (if you feed me I'm cheap).</p.>
 
-## Languages
+## My Toolkit
+
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify)
+
 
 ## Best Projects
 
@@ -12,6 +18,17 @@
 
 
 <!-- TESTING STUFF BELOW -->
+
+## STATS (premade)
+
+![Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=dark)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact)
+
+## STATS (with .yml)
+
+- Repositories: <!-- REPO_COUNT -->
+- Followers: <!-- FOLLOWER_COUNT -->
 
 
 hello world
