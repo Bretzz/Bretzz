@@ -1,0 +1,21 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # every day at midnight UTC
+  workflow_dispatch:   # allows manual runs
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Update README placeholders
+        run: |
+          REPOS=$(gh api users/YOUR_GITHUB_USERNAME --jq '.public_repos')
+          FOLLOWERS=$(gh api users/YOUR_GITHUB_USERNAME --jq '.followers')
+
+          sed -i "s/<!-- REPO_COUNT -->/$REPOS/g" README.md
+          sed -i "s/<!-- FOLLOWER_COUNT -->/$FOLLOWERS/g" README.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
