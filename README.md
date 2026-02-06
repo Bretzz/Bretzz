@@ -35,9 +35,13 @@ My first Full-Stack Web App hosting a multiplayer pong platform with remote auth
 ---
 
 
-### working on
+## Working on
+- Private Homeserver to replicate Spotify since I'm poor
+- 3D rendering with OpenGL
 
-### how to reach me
+## How to reach me
+
+- tommaso.piana.agostinetti@gmail.com (add '@dev' in the subject)
 
 
 <!-- TESTING STUFF BELOW -->
