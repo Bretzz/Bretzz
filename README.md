@@ -13,7 +13,6 @@
 
 ![My Coding Stats](.github/assets/github-metrics.svg)
 
-**Lines of code written:** <!-- LOC --> calculating...<!-- LOC -->
 
 ## Best Projects
 
