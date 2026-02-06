@@ -13,6 +13,28 @@
 
 ## Best Projects
 
+### [ft_transcendence](https://github.com/Fre0077/Transcendence)
+My first Full-Stack Web App hosting a multiplayer pong platform with remote authentication, firend and chat services, private lobbies and tournaments.
+* **Core Stack:** Typescript, Fastify
+* **External Tools:** ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-red?style=flat-square) ![Vite](https://img.shields.io/badge/Vite-red?style=flat-square) *(Used in project; contributed by others)*
+* **Collaborators:** [Fre0077](https://github.com/Fre0077), [Nexus29](https://github.com/Nexus29), [SimplyPowfu](https://github.com/SimplyPowfu), [X2Borgo](https://github.com/X2Borgo)
+
+---
+
+### [Cub3d](https://github.com/Bretzz/Cub3d)
+*A Raycasting 3D engine inspired by [Wolfenstein 3D](http://users.atw.hu/wolf3d/). Features "King of the Hill" style multiplayer and custom font rendering via [your_font](https://github.com/Bretzz/KiwiHTTP).*
+* **Stack:** C, MinilibX
+* **Collaborators:** [SabinoCarlucci](https://github.com/SabinoCarlucci)
+
+---
+
+### [KiwiHTTP](https://github.com/Bretzz/KiwiHTTP)
+*High-performance HTTP server (Nginx replica) supporting static file serving, `proxy_pass`, and streams.*
+* **Stack:** C++11
+
+---
+
+
 ### working on
 
 ### how to reach me
