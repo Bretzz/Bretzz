@@ -13,10 +13,10 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           filename: github-metrics.svg
-          base: ""
+          # base: ""
           plugin_lines: yes
-          plugin_lines_history: 0
-          plugin_lines_sections: total
-          plugin_lines_skipped: markdown, json, yaml
+          # plugin_lines_history: 0
+          # plugin_lines_sections: total
+          # plugin_lines_skipped: markdown, json, yaml
           # config_output: markdown 
-          config_order: lines
+          # config_order: lines
