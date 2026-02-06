@@ -17,10 +17,11 @@ jobs:
           # scan all your owned repos
           base: repositories
           repositories_affiliations: owner
+          # repositories_forks: false
+          repositories_batch: 100
 
           # visual + LOC
           plugin_languages: yes
           plugin_lines: yes
-
-          # plugin_lines_sections: total
-          # plugin_lines_skipped: markdown, json, yaml
+          plugin_lines_sections: total
+          plugin_lines_skipped: markdown, json, yaml
