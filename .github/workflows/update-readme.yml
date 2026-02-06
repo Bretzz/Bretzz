@@ -20,8 +20,8 @@ jobs:
           REPOS=$(gh api users/Bretzz --jq '.public_repos')
           FOLLOWERS=$(gh api users/Bretzz --jq '.followers')
 
-          sed -i "s//$REPOS/g" README.md
-          sed -i "s//$FOLLOWERS/g" README.md
+          sed -i "s/.*/$REPOS/g" README.md
+          sed -i "s/.*/$FOLLOWERS/g" README.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

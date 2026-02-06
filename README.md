@@ -22,8 +22,7 @@
 
 ## STATS (with .yml)
 
-- Repositories: <!-- REPO_COUNT -->
-- Followers: <!-- FOLLOWER_COUNT -->
+* 🚀 Public Repos: 0* 👥 Followers: 0```
 
 
 hello world
