@@ -9,8 +9,6 @@
 [![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Fastify](https://img.shields.io/badge/-Fastify-000000?logo=fastify)](https://www.fastify.io/)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Bretzz&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
-
 
 
 ## Best Projects
@@ -18,7 +16,7 @@
 ### [ft_transcendence](https://github.com/Fre0077/Transcendence)
 My first Full-Stack Web App hosting a multiplayer pong platform with remote authentication, firend and chat services, private lobbies and tournaments.
 * **Core Stack:** Typescript, Fastify
-* **External Tools:** ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-red?style=flat-square) ![Vite](https://img.shields.io/badge/Vite-red?style=flat-square) *(Used in project; contributed by others)*
+* **External Tools:** TailwindCSS, Vite *(Used in project; contributed by others)*
 * **Collaborators:** [Fre0077](https://github.com/Fre0077), [Nexus29](https://github.com/Nexus29), [SimplyPowfu](https://github.com/SimplyPowfu), [X2Borgo](https://github.com/X2Borgo)
 
 ---
