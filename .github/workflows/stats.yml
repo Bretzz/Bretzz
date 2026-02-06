@@ -1,4 +1,4 @@
-name: Metrics
+name: metrics
 
 on:
   schedule:
@@ -12,7 +12,7 @@ jobs:
     permissions:
       contents: write
     steps:
-    
+
       - name: Counts line of code
       - uses: lowlighter/metrics@latest
         with:
