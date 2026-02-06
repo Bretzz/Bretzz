@@ -10,6 +10,7 @@
 [![Fastify](https://img.shields.io/badge/-Fastify-000000?logo=fastify)](https://www.fastify.io/)
 
 ### My Coding Stats
+*Calculating my coding greatness... please check back in a bit!*
 
 ## Best Projects
 

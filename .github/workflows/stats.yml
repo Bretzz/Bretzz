@@ -5,18 +5,23 @@ on:
     - cron: "0 0 * * *" # Runs every night at midnight
   workflow_dispatch: # Allows manual triggering
 
+name: Metrics
+on:
+  schedule: [{cron: "0 0 * * *"}]
+  workflow_dispatch:
 jobs:
-  update-readme:
+  github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v3
-      
-      - name: Count Lines of Code
-        uses: anton-prizhiev/lines-of-code-action@v2
+
+      - name: Counts line of code
+      - uses: lowlighter/metrics@latest
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          # This will scan all your public repositories
-          requirements: 'all' 
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: "" # This turns off the default header
+          plugin_lines: yes
           
       - name: Commit and Push
         run: |
