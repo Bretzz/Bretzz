@@ -1,25 +1,26 @@
-name: metrics
-
+name: Update LOC
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs every night at midnight
-  workflow_dispatch: # Allows manual triggering
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 jobs:
-  github-metrics:
+  update-readme:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: actions/checkout@v3
+      
+      - name: Count Lines of Code
+        uses: teoxoy/profile-readme-stats@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          base: "" # This turns off the default header
-          plugin_lines: yes
-          
+          # This specific action targets the tags below automatically
+
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "Update Lines of Code stats" || exit 0
+          git commit -m "Update stats" || exit 0
           git push
