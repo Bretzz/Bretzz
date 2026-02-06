@@ -12,8 +12,8 @@ jobs:
     steps:
       - name: Update README placeholders
         run: |
-          REPOS=$(gh api users/YOUR_GITHUB_USERNAME --jq '.public_repos')
-          FOLLOWERS=$(gh api users/YOUR_GITHUB_USERNAME --jq '.followers')
+          REPOS=$(gh api users/Bretzz --jq '.public_repos')
+          FOLLOWERS=$(gh api users/Bretzz --jq '.followers')
 
           sed -i "s/<!-- REPO_COUNT -->/$REPOS/g" README.md
           sed -i "s/<!-- FOLLOWER_COUNT -->/$FOLLOWERS/g" README.md
