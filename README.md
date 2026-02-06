@@ -9,6 +9,8 @@
 [![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Fastify](https://img.shields.io/badge/-Fastify-000000?logo=fastify)](https://www.fastify.io/)
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Bretzz&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+
 
 
 ## Best Projects
@@ -22,7 +24,7 @@ My first Full-Stack Web App hosting a multiplayer pong platform with remote auth
 ---
 
 ### [Cub3d](https://github.com/Bretzz/Cub3d)
-*A Raycasting 3D engine inspired by [Wolfenstein 3D](http://users.atw.hu/wolf3d/). Features "King of the Hill" style multiplayer and custom font rendering via [your_font](https://github.com/Bretzz/KiwiHTTP).*
+*A Raycasting 3D engine inspired by [Wolfenstein 3D](http://users.atw.hu/wolf3d/). Features "King of the Hill" style multiplayer and custom font rendering via [your_font](https://github.com/Bretzz/your_font).*
 * **Stack:** C, MinilibX
 * **Collaborators:** [SabinoCarlucci](https://github.com/SabinoCarlucci)
 
