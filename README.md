@@ -17,7 +17,7 @@
 ## Best Projects
 
 ### [ft_transcendence](https://github.com/Bretzz/ft_transcendence)
-My first Full-Stack Web App hosting a multiplayer pong platform with remote authentication, firend and chat services, private lobbies and tournaments.
+*My first Full-Stack Web App hosting a multiplayer pong platform with remote authentication, friend and chat services, private lobbies and tournaments.*
 * **Core Stack:** Typescript, Fastify
 * **External Tools:** TailwindCSS, Vite *(Used in project; contributed by others)*
 * **Collaborators:** [Fre0077](https://github.com/Fre0077), [Nexus29](https://github.com/Nexus29), [SimplyPowfu](https://github.com/SimplyPowfu), [X2Borgo](https://github.com/X2Borgo)
