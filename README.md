@@ -13,7 +13,7 @@
 
 ## Best Projects
 
-### [ft_transcendence](https://github.com/Fre0077/Transcendence)
+### [ft_transcendence](https://github.com/Bretzz/ft_transcendence)
 My first Full-Stack Web App hosting a multiplayer pong platform with remote authentication, firend and chat services, private lobbies and tournaments.
 * **Core Stack:** Typescript, Fastify
 * **External Tools:** TailwindCSS, Vite *(Used in project; contributed by others)*
@@ -42,4 +42,4 @@ My first Full-Stack Web App hosting a multiplayer pong platform with remote auth
 ## How to reach me
 
 - tommaso.piana.agostinetti@gmail.com (add '@dev' in the subject)
-- my [Linkedin](https://www.linkedin.com/in/tommaso-piana-agostinetti-4ba495309/)
+- [Linkedin](https://www.linkedin.com/in/tommaso-piana-agostinetti-4ba495309/) - my Linkedin profile
