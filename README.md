@@ -42,6 +42,7 @@ My first Full-Stack Web App hosting a multiplayer pong platform with remote auth
 ## How to reach me
 
 - tommaso.piana.agostinetti@gmail.com (add '@dev' in the subject)
+- Linkedin(https://www.linkedin.com/in/tommaso-piana-agostinetti-4ba495309/)
 
 
 <!-- TESTING STUFF BELOW -->
