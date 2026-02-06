@@ -14,6 +14,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           filename: github-metrics.svg
           # base: ""
+          base: repositories
+          plugin_languages: yes
           plugin_lines: yes
           # plugin_lines_history: 0
           # plugin_lines_sections: total
