@@ -10,15 +10,18 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v3
-      
-      - name: Count Lines of Code
+
+      - name: Profile README Stats
         uses: teoxoy/profile-readme-stats@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          # Adding these lines helps prevent timeouts:
-          include_all_commits: false 
-          stats_repository: Bretzz/Bretzz
+          # We force it to be as "lazy" as possible to avoid the error
+          include_all_commits: false
+          # We tell it specifically which repo to update
+          readme_file: README.md 
 
+      # The teoxoy action actually handles the commit itself if configured right,
+      # but keeping your manual commit as a fallback is fine.
       - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
