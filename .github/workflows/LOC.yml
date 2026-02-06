@@ -19,3 +19,5 @@ jobs:
           config_output: markdown
           # This ensures it specifically looks for your tags
           config_order: lines
+          template: repository
+          filename: README.md
