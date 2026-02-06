@@ -13,6 +13,8 @@
 
 ![My Coding Stats](.github/assets/github-metrics.svg)
 
+**Lines of code written:** <!-- LOC --> calculating...<!-- LOC -->
+
 ## Best Projects
 
 ### [ft_transcendence](https://github.com/Bretzz/ft_transcendence)

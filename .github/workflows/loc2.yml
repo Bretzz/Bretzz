@@ -1,0 +1,35 @@
+name: Count Lines of Code
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  loc:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # IMPORTANT: full history
+
+      - name: Count LOC written by me
+        run: |
+          LOC=$(git log --author="${{ github.actor }}" --pretty=tformat: --numstat \
+            | awk '{ add += $1 } END { print add }')
+          echo "LOC=$LOC" >> $GITHUB_ENV
+
+      - name: Update README
+        run: |
+          sed -i "s/<!-- LOC -->.*/<!-- LOC --> $LOC/" README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Update LOC stats" || exit 0
+          git push
