@@ -4,15 +4,12 @@ on:
   schedule:
     - cron: "0 0 * * *" # Runs every night at midnight
   workflow_dispatch: # Allows manual triggering
-
 jobs:
-
   github-metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-
       - name: Counts line of code
       - uses: lowlighter/metrics@latest
         with:
