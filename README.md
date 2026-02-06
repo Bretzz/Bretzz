@@ -12,6 +12,8 @@
 ### My Coding Stats
 <!-- START_SECTION:metrics -->*Calculating my coding greatness... please check back in a bit!*<!-- END_SECTION:metrics -->
 
+![My Coding Stats](github-metrics.svg)
+
 ## Best Projects
 
 ### [ft_transcendence](https://github.com/Bretzz/ft_transcendence)

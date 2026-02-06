@@ -12,6 +12,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          filename: github-metrics.svg # It creates this file
           base: "" 
           plugin_lines: yes
           # This tells the action to update your README tags directly
@@ -19,4 +20,3 @@ jobs:
           # This ensures it specifically looks for your tags
           config_order: lines
           template: repository
-          filename: README.md
