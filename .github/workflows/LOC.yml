@@ -15,7 +15,9 @@ jobs:
         uses: teoxoy/profile-readme-stats@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          # This specific action targets the tags below automatically
+          # Adding these lines helps prevent timeouts:
+          include_all_commits: false 
+          stats_repository: Bretzz/Bretzz
 
       - name: Commit and Push
         run: |
