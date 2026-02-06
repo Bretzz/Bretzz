@@ -1,56 +1,21 @@
-name: Update LOC
+name: Update Profile Stats
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
 jobs:
-  update-readme:
+  update-loc:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Profile README Stats
-        uses: teoxoy/profile-readme-stats@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          # We force it to be as "lazy" as possible to avoid the error
-          include_all_commits: false
-          # We tell it specifically which repo to update
-          readme_file: README.md 
-
-      # The teoxoy action actually handles the commit itself if configured right,
-      # but keeping your manual commit as a fallback is fine.
-      - name: Commit and Push
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Update stats" || exit 0
-          git push
-  
-  github-metrics:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v3
-
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          base: ""
+          base: "" 
           plugin_lines: yes
-          # This is the "magic" line: it outputs text to your README tags
+          # This tells the action to update your README tags directly
+          template: repository
           config_output: markdown
-          # Use your exact tags
+          # This ensures it specifically looks for your tags
           config_order: lines
-      
-      - name: Commit and Push
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Update stats" || exit 0
-          git push
