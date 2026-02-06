@@ -9,9 +9,9 @@
 [![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Fastify](https://img.shields.io/badge/-Fastify-000000?logo=fastify)](https://www.fastify.io/)
 
-### My Coding Stats
+<!-- ### My Coding Stats
 
-![My Coding Stats](.github/assets/github-metrics.svg)
+![My Coding Stats](.github/assets/github-metrics.svg) -->
 
 
 ## Best Projects
