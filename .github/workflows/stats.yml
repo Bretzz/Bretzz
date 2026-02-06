@@ -10,7 +10,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Counts line of code
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
