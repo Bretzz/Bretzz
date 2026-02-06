@@ -15,7 +15,6 @@ jobs:
           base: "" 
           plugin_lines: yes
           # This tells the action to update your README tags directly
-          template: repository
           config_output: markdown
           # This ensures it specifically looks for your tags
           config_order: lines
